@@ -8,6 +8,7 @@ The official implementation for the **ICML 2024** paper [ [**Learning Adaptive a
 <p align="center">
   <img width="85%" src="assets/AVTrack.png" alt="AVTrack"/>
 </p>
+
 ## Usage
 ### Installation
 Create and activate a conda environment:
