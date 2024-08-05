@@ -80,7 +80,7 @@ python tracking/test.py avtrack deit_tiny_patch16_224 --dataset uavdt --threads 
 python tracking/analysis_results.py # need to modify tracker configs and names
 ```
 
-### Test FLOPs, and Speed
+### Test FLOPs
 ```
 # Profiling AVTrack
 python tracking/profile_model.py --script avtrack --config deit_tiny_patch16_224
