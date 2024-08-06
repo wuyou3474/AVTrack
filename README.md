@@ -60,7 +60,7 @@ You can also modify paths by these two files:
 ```
 
 ### Training
-Download pre-trained [DeiT-Tiny weights](https://github.com/facebookresearch/deit), [Eva02-Tiny weights](https://github.com/baaivision/EVA/tree/master/EVA-02) , and [ViT-Tiny weights](https://github.com/google-research/vision_transformer)  and put it under `$USER_ROOT$//home/lsw/.cache/torch/hub/checkpoints/. 
+Download pre-trained [DeiT-Tiny weights](https://github.com/facebookresearch/deit), [Eva02-Tiny weights](https://github.com/baaivision/EVA/tree/master/EVA-02) , and [ViT-Tiny weights](https://github.com/google-research/vision_transformer)  and put it under `$USER_ROOT$/.cache/torch/hub/checkpoints/. 
 ```
 python tracking/train.py --script avtrack --config deit_tiny_patch16_224 --save_dir ./output --mode single
 ```
