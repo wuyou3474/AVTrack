@@ -104,7 +104,7 @@ python tracking/analysis_results.py # need to modify tracker configs and names
 ```
 - VisDrone2018
 ```
-python tracking/test.py avtrack deit_tiny_distilled_patch16_224 --dataset visdrone2018 --threads 4 --num_gpus 1
+python tracking/test.py avtrack deit_tiny_patch16_224 --dataset visdrone2018 --threads 4 --num_gpus 1
 python tracking/analysis_results.py # need to modify tracker configs and names
 ```
 - DTB70 / UAV123 /UAV123@10fps .....
