@@ -158,7 +158,7 @@ class AVTrackActor(BaseActor):
         if self.net.is_distill_training:
             distill_loss = pred_dict['distill_loss']
             loss = self.loss_weight['giou'] * giou_loss + self.loss_weight['l1'] * l1_loss + self.loss_weight['focal'] * location_loss \
-                    + 0.000001 * distill_loss
+                    + 0.0001 * distill_loss
         else:
             loss = self.loss_weight['giou'] * giou_loss + self.loss_weight['l1'] * l1_loss + self.loss_weight['focal'] * location_loss \
                     + 0.00001 *mine_loss + 48 * activeness_loss
