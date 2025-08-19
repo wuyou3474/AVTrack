@@ -1,5 +1,5 @@
-# AVTrack
-The official implementation for the **ICML 2024** paper [ [**Learning Adaptive and View-Invariant Vision Transformer for Real-Time UAV Tracking**](https://openreview.net/pdf?id=eaNLvrP8n1)] and its **extendsion paper** [ [**Learning Adaptive and View-Invariant Vision Transformer with Multi-Teacher Knowledge Distillation for Real-Time UAV Tracking**](https://arxiv.org/pdf/2412.20002)]
+# AVTrack & AVTrack-MD
+The official implementation for the **ICML 2024** paper [ [**Learning Adaptive and View-Invariant Vision Transformer for Real-Time UAV Tracking**](https://openreview.net/pdf?id=eaNLvrP8n1)] and its **extendsion paper (TCSVT 2025)** [ [**Learning an Adaptive and View-Invariant Vision Transformer for Real-Time UAV Tracking**](https://arxiv.org/pdf/2412.20002)]
 
 [Models & Raw Results](https://pan.baidu.com/s/1sAGbZxIHfw0ahdpKVeqhIg?pwd=avtr) Baidu Driver: avtr [Models & Raw Results](https://drive.google.com/drive/folders/1dUi_7bSEpYgMQOPCvPZG7FKDyFz9oLh0?usp=sharing) Google Driver
 
@@ -141,11 +141,11 @@ If our work is useful for your research, please consider citing:
 ```
 
 ```Bibtex
-@article{wu2024learning,
-  title={Learning Adaptive and View-Invariant Vision Transformer with Multi-Teacher Knowledge Distillation for Real-Time UAV Tracking},
+@article{wu2025learning,
+  title={Learning an Adaptive and View-Invariant Vision Transformer for Real-Time UAV Tracking},
   author={Wu, You and Li, Yongxin and Liu, Mengyuan and Wang, Xucheng and Yang, Xiangyang and Ye, Hengzhou and Zeng, Dan and Zhao, Qijun and Li, Shuiwang},
-  journal={arXiv preprint arXiv:2412.20002},
-  year={2024}
+  journal={IEEE TCSVT},
+  year={2025}
 }
 ```
 
